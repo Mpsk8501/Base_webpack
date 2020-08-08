@@ -1,3 +1,1 @@
-import testHello from './modules/baseModule'
-
-testHello()
+import './modules/baseModule'
