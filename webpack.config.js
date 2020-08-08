@@ -39,7 +39,7 @@ module.exports = {
     extensions: ['.js'],
     alias: {
       '@': path.resolve(__dirname, 'src'),
-      '@core': path.resolve(__dirname, 'src/core')
+      '@core': path.resolve(__dirname, 'src/js')
     }
   },
   devtool: isDev ? 'eval-source-map' : false,
